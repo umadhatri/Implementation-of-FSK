@@ -9,3 +9,9 @@ Frequency Shift Keying (FSK) can be explained to a layman as a method of sending
 
 ## What does the code do?
 It simply generates a random signal everytime you run it, converts it into digital data, generates an FSK signal for the binary data, and adds noise (random unwanted signals) to the FSK signal (to simulate the signal passing through a communication channel) and then demodulates it. It then computes the Fast Fourirer Transform of the demodulated signal so that we can look into the spectral aspects of the data that we have received.
+
+## Why Python and not MATLAB?
+Well, Python is free and open-source and has great libraries to use that can provide the same functionality as MATLAB.
+
+## What is next for the project?
+This was actually made as a part of my curriculum's end-semester project. Therefore, we (my teammates and I) feel that it is self-contained. I personally do not see a future for the project.
